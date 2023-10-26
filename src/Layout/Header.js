@@ -3,7 +3,7 @@ import React from 'react';
 function Header({ location, history }) {
 	return (
 		<header className='header'>
-		  <strong>React Test</strong>
+		  <strong>메뉴입니다.</strong>
 		  <ul>
 		  <li>
 			  <a href='/'>Home</a>
