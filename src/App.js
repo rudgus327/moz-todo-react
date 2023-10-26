@@ -2,10 +2,10 @@
 /*eslint-disable*/
 import React,{useState} from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './Header';
-import Home from './Home';
-import Blog from './Blog';
-import Page2 from './Page2';
+import Header from './Layout/Header';
+import Home from './components/Home';
+import Blog from './components/Blog';
+import Page2 from './components/Page2';
 import './App.css';
 
 function App() {
