@@ -6,10 +6,11 @@ import Header from './Layout/Header';
 import Home from './components/Home';
 import Blog from './components/Blog';
 import Page2 from './components/Page2';
+
 import './App.css';
 
 function App() {
-
+  
   return(
   <BrowserRouter>
     <div className='App'>
@@ -19,7 +20,6 @@ function App() {
         <Route path='/Blog' element={<Blog/>}></Route>
         <Route path='/page2' element={<Page2/>}></Route>
       </Routes>
-
     </div>
   </BrowserRouter>
   );
