@@ -12,7 +12,10 @@ function Header({ location, history }) {
 			  <a href='/Blog'>Blog</a>
 			</li>
 			<li>
-			  <a href='/Page2'>Page2</a>
+			  <a href='/Page2'>Page2(Redux)</a>
+			</li>
+			<li>
+			  <a href='/MovieList'>MovieList(MobX)</a>
 			</li>
 		  </ul>
 		</header>
