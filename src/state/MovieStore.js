@@ -32,7 +32,7 @@ export class MovieStore{ //repository
             new Movie(1,'LOTR',5),
             new Movie(2,'LOTR2',3),
             new Movie(3,'LOTR3',1),
-        ]
+        ] 
     }
 
     createMovie(title,rate){
